@@ -34,4 +34,14 @@
    - Navigate to the API section and generate a new API key.
    - Copy the generated API key for use in the next step.
 
+5. **Update the API Key** in the `popup.js` file:
+   - Open `popup.js` in the SmartDraft folder.
+   - Replace `YOUR_API_KEY` with your OpenAI API key:
+     ```javascript
+     const apiKey = 'sk-your-api-key';
+     ```
+     
+6. **Reload the Extension** in Chrome:
+   - Go back to `chrome://extensions/`.
+   - Click **Reload** next to the SmartDraft extension to apply your changes.
 
