@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "SmartDraft",
+    "version": "1.0",
+    "description": "AI-powered assistant to draft and refine emails effortlessly.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": ["activeTab"]
+  }
