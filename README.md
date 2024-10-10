@@ -7,8 +7,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [Contact](#contact)
 
 ## Features
 - **AI-Powered Email Drafting**: Automatically generates email drafts based on the input topic and selected tone (formal, casual, friendly).
@@ -21,3 +19,19 @@
 1. **Clone or Download** this repository to your local machine:
    ```bash
    git clone https://github.com/your-username/smartdraft.git
+
+2. **Navigate** to the cloned folder:
+   ```bash
+   cd smartdraft
+
+3. **Load the Extension** into Chrome:
+   - Open Chrome and navigate to `chrome://extensions/`.
+   - Enable **Developer Mode** using the toggle at the top right.
+   - Click **Load unpacked** and select the directory where the SmartDraft project is located.
+
+4. **Obtain an API Key** from OpenAI:
+   - Visit [OpenAI's API](https://platform.openai.com/) and create an account if you don't have one.
+   - Navigate to the API section and generate a new API key.
+   - Copy the generated API key for use in the next step.
+
+
